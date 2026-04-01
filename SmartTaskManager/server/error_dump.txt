@@ -1,0 +1,8 @@
+TypeError: next is not a function
+TypeError: next is not a function
+    at model.<anonymous> (C:\Users\aditi\OneDrive\Desktop\WEB TECH\SmartTaskManager\server\models\User.js:15:3)
+    at async Kareem.execPre (C:\Users\aditi\OneDrive\Desktop\WEB TECH\SmartTaskManager\server\node_modules\kareem\index.js:70:24)
+    at async model.$__save (C:\Users\aditi\OneDrive\Desktop\WEB TECH\SmartTaskManager\server\node_modules\mongoose\lib\model.js:394:5)
+    at async model.save (C:\Users\aditi\OneDrive\Desktop\WEB TECH\SmartTaskManager\server\node_modules\mongoose\lib\model.js:664:5)
+    at async Function.create (C:\Users\aditi\OneDrive\Desktop\WEB TECH\SmartTaskManager\server\node_modules\mongoose\lib\model.js:2751:5)
+    at async test (C:\Users\aditi\OneDrive\Desktop\WEB TECH\SmartTaskManager\server\test_db.js:12:5)
