@@ -23,7 +23,7 @@ const Login = ({ setUser }) => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://task-manager-web-app-bge8.onrender.com', {
+      const response = await axios.post('https://task-manager-web-app-bge8.onrender.com/api/auth/login', {
         email,
         password,
       });
