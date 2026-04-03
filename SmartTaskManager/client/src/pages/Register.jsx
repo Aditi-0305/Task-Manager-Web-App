@@ -24,7 +24,7 @@ const Register = ({ setUser }) => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', {
+      const response = await axios.post('https://task-manager-web-app-bge8.onrender.com/api/register', {
         name,
         email,
         password,
