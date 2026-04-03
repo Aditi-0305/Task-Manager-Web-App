@@ -42,7 +42,7 @@ const Dashboard = ({ user }) => {
           Authorization: `Bearer ${user.token}`,
         },
       };
-      const response = await axios.post('http://localhost:5000/api/tasks', taskForm, config);
+      const response = await axios.post('https://task-manager-web-app-bge8.onrender.com/api/tasks');
       setTasks([...tasks, response.data]);
       setTaskForm({ title: '', description: '' });
     } catch (err) {
